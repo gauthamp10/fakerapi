@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Faker API</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{{ url_for('static', filename='css/simple-sidebar.css') }}" rel="stylesheet">
+<style>
+.boxhead a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-dark border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading text-white"><b>FAKER API</b> </div>
+      <div class="list-group list-group-flush">
+        <a href="https://repl.it/@GAUTHAMprakash/restapi" class="list-group-item list-group-item-action bg-dark text-light" target="_blank">Edit Repl.it</a>
+        <a href="https://github.com/gauthamp10/fakerapi" class="list-group-item list-group-item-action bg-dark text-light" target="_blank">Source</a>
+        <a href="https://gauthamp10.github.io/" class="list-group-item list-group-item-action bg-dark text-light">About me</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-success" id="menu-toggle">Toggle Menu</button>
+
+ 
+
+      </nav>
+
+      <div class="container-fluid">
+        <h1 class="mt-4">API to test Faker module</h1>
+        <p>An free to use api to quickly get fake data to populate your development needs with a simple GET request.</p>
+        <h3>Endpoints</h3>
+        <hr>
+        <span># Fetch profile of 5 random people.<br></span>
+        <a  href="https://restapi--gauthamprakash.repl.co/api/v1/profile/5" target="_blank"><p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/profile/5</code></p></a>
+        
+        <div class="form-group">
+  <textarea class="form-control" id="comment" style="" rows="8" cols="60">
+    [
+  "{'job': 'Industrial buyer', 'company': 'Lee-Flores', 'ssn': '545-88-1545', 'residence': '919 Benjamin Prairie Apt. 191\\nMoranbury, MN 09189', 'current_location': (Decimal('-29.1195445'), Decimal('167.798608')), 'blood_group': 'B-', 'website': ['http://mcdonald.org/', 'http://www.miller-phillips.biz/', 'https://washington-pacheco.com/', 'http://johnson.com/'], 'username': 'kathrynbaldwin', 'name': 'Brett Hall', 'sex': 'M', 'address': '154 Duke Manors\\nToddburgh, VT 20182', 'mail': 'beniteztravis@gmail.com', 'birthdate': datetime.date(1918, 9, 12)}",
+  "{'job': 'Lecturer, higher education', 'company': 'Blake-Bond', 'ssn': '096-90-2834', 'residence': '980 Schmitt Ville\\nFlowersville, OK 25567', 'current_location': (Decimal('-5.0577595'), Decimal('130.893031')), 'blood_group': 'AB-', 'website': ['https://michael-ortiz.com/', 'http://www.taylor.net/'], 'username': 'kaisernancy', 'name': 'Christopher Jones', 'sex': 'M', 'address': '77516 Stanton Fort\\nToddview, NH 22947', 'mail': 'heatheranderson@yahoo.com', 'birthdate': datetime.date(1995, 12, 14)}",
+  "{'job': 'Development worker, international aid', 'company': 'Kim, Hunter and Marshall', 'ssn': '645-78-5109', 'residence': '442 Harris Fort\\nWest John, MO 81473', 'current_location': (Decimal('11.739479'), Decimal('119.270418')), 'blood_group': 'AB-', 'website': ['https://martinez.info/'], 'username': 'william66', 'name': 'Bradley Frazier', 'sex': 'M', 'address': 'Unit 7717 Box 1548\\nDPO AE 40008', 'mail': 'irobinson@hotmail.com', 'birthdate': datetime.date(1984, 3, 6)}",
+  "{'job': 'Animal technologist', 'company': 'West PLC', 'ssn': '491-70-5134', 'residence': '104 Robert Greens Suite 844\\nNorth Staceyhaven, WV 77503', 'current_location': (Decimal('41.7383475'), Decimal('-152.119849')), 'blood_group': 'AB-', 'website': ['http://taylor.info/', 'https://www.lee-may.com/'], 'username': 'joseph83', 'name': 'Gabrielle Myers', 'sex': 'F', 'address': '67415 Rhonda Ranch Apt. 072\\nEatontown, MS 28184', 'mail': 'schase@yahoo.com', 'birthdate': datetime.date(1973, 12, 14)}",
+  "{'job': 'Homeopath', 'company': 'Tucker-Garcia', 'ssn': '537-96-7602', 'residence': '550 Perry Avenue\\nSouth Pamelaborough, NE 34153', 'current_location': (Decimal('-1.048557'), Decimal('-25.880631')), 'blood_group': 'A+', 'website': ['https://shields.com/', 'https://www.johnson-henry.net/', 'https://www.martin.com/'], 'username': 'danielssamantha', 'name': 'Barbara Garcia', 'sex': 'F', 'address': '89075 Horton Lakes Suite 754\\nNorth Aaron, WI 00854', 'mail': 'vowens@hotmail.com', 'birthdate': datetime.date(1954, 7, 9)}"
+]
+</textarea>
+</div>
+<br>
+        <a href="https://restapi--gauthamprakash.repl.co/api/v1/job/25" target="_blank"><p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/job/25</code></p></a>
+        
+        <a href="https://restapi--gauthamprakash.repl.co/api/v1/company/20" target="_blank"><p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/company/25</code></p></a>
+        
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/ssn/25" target="_blank"> <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/ssn/25</code></p></a>
+        
+        <a href="https://restapi--gauthamprakash.repl.co/api/v1/residence/25" target="_blank"><p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/residence/25</code></p></a>
+        
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/current_location/25" target="_blank"> <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/current_location/25</code></p></a>
+        
+        <a href="https://restapi--gauthamprakash.repl.co/api/v1/blood_group/25" target="_blank"><p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/blood_group/25</code></p></a>
+        
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/website/25" target="_blank"> <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/website/25</code></p></a>
+        
+        <a href="https://restapi--gauthamprakash.repl.co/api/v1/username/50" target="_blank"><p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/username/50</code></p></a>
+        
+        <a href="https://restapi--gauthamprakash.repl.co/api/v1/name/100" target="_blank"><p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/name/100</code></p></a>
+        
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/address/25" target="_blank"> <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/address/25</code></p></a>
+        
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/mail/50" target="_blank"> <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/mail/50</code></p></a>
+        
+      <a href="https://restapi--gauthamprakash.repl.co/api/v1/credit_card/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/credit_card/20</code></p></a>
+      
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/sentence/200" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/sentence/200</code></p></a>
+
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/license/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/license/20</code></p></a>
+      
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/color/30" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/color/30</code></p></a>
+      
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/hex_color/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/hex_color/20</code></p></a>
+      
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/rgb/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/rgb/20</code></p></a>
+      
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/rgb_css/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/rgb_css/20</code></p></a>
+
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/date/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/date/20</code></p></a>    
+
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/year/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/year/20</code></p></a>      
+    
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/timezone/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/timezone/20</code></p></a> 
+
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/ipv4/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/ipv4/20</code></p></a> 
+
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/ipv6/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/ipv6/20</code></p></a> 
+
+
+       <a href="https://restapi--gauthamprakash.repl.co/api/v1/mac/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/mac/20</code></p></a> 
+
+
+        <a href="https://restapi--gauthamprakash.repl.co/api/v1/uri/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/uri/20</code></p></a>  
+
+        <a href="https://restapi--gauthamprakash.repl.co/api/v1/isbn10/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/isbn10/20</code></p></a> 
+
+        <a href="https://restapi--gauthamprakash.repl.co/api/v1/isbn13/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/isbn13/20</code></p></a>  
+
+
+        <a href="https://restapi--gauthamprakash.repl.co/api/v1/boolean/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/boolean/20</code></p></a> 
+
+        <a href="https://restapi--gauthamprakash.repl.co/api/v1/useragent/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/useragent/20</code></p></a>
+
+
+         <a href="https://restapi--gauthamprakash.repl.co/api/v1/phone/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/phone/20</code></p></a> 
+
+         <a href="https://restapi--gauthamprakash.repl.co/api/v1/md5/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/md5/20</code></p></a>
+
+         <a href="https://restapi--gauthamprakash.repl.co/api/v1/password/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/password/20</code></p></a> 
+
+
+         <a href="https://restapi--gauthamprakash.repl.co/api/v1/sha1/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/sha1/20</code></p></a> 
+
+         <a href="https://restapi--gauthamprakash.repl.co/api/v1/sha256/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/sha256/20</code></p></a> 
+
+         <a href="https://restapi--gauthamprakash.repl.co/api/v1/credit_card_full/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/credit_card_full/20</code></p></a> 
+
+          <a href="https://restapi--gauthamprakash.repl.co/api/v1/country/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/country/20</code></p></a>
+
+          <a href="https://restapi--gauthamprakash.repl.co/api/v1/random_number/20" target="_blank">  <p><button class="btn btn-info">GET</button>&nbsp;&nbsp;&nbsp;<code>https://restapi--gauthamprakash.repl.co/api/v1/random_number/20</code></p></a>
+    <br>
+    <hr>
+      </div>
+    </div>
+
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
