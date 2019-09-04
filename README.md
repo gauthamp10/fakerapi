@@ -1,6 +1,6 @@
 # fakerapi
-An free to use api to quickly get fake data to populate your development needs with a simple GET request.
-Build using flask and faker.
+A free to use api to quickly get fake data to populate your development needs with a simple GET request.
+Build using flask and faker module.
 
 
 ### See it action : https://restapi--gauthamprakash.repl.co/
