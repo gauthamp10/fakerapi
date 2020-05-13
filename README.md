@@ -12,7 +12,7 @@ Build using flask and faker module.
 
 A get request fetches 25 resuls each.
 
-```
+
 
 profile: [https://restapi--gauthamprakash.repl.co/api/v1/profile/25](https://restapi--gauthamprakash.repl.co/api/v1/profile/5)
 
@@ -58,7 +58,7 @@ phone: [restapi--gauthamprakash.repl.co/api/v1/phone/25](https://restapi--gautha
 
 md5: [restapi--gauthamprakash.repl.co/api/v1/md5/25](https://restapi--gauthamprakash.repl.co/api/v1/md5/25)
 
-```
+
 etc....
 
 ### Author
