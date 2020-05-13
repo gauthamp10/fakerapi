@@ -5,6 +5,8 @@ Build using flask and faker module.
 
 ### See it action : https://restapi--gauthamprakash.repl.co/
 
+![Screenshot](https://imgur.com/ldlmzmb.png)
+
 
 ### Author
 
