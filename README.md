@@ -18,7 +18,7 @@ profile: [https://restapi--gauthamprakash.repl.co/api/v1/profile/25](https://res
 
 jobs: [restapi--gauthamprakash.repl.co/api/v1/job/25](https://restapi--gauthamprakash.repl.co/api/v1/job/25)
 
-company: [(restapi--gauthamprakash.repl.co/api/v1/company/25](https://restapi--gauthamprakash.repl.co/api/v1/company/25)
+company: [restapi--gauthamprakash.repl.co/api/v1/company/25](https://restapi--gauthamprakash.repl.co/api/v1/company/25)
 
 ssn: [restapi--gauthamprakash.repl.co/api/v1/ssn/25](https://restapi--gauthamprakash.repl.co/api/v1/ssn/25)
 
