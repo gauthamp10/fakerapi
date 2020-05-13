@@ -12,7 +12,9 @@ Build using flask and faker module.
 
 A get request fetches 25 resuls each.
 
-profile:[https://restapi--gauthamprakash.repl.co/api/v1/profile/25](https://restapi--gauthamprakash.repl.co/api/v1/profile/5)
+```
+
+profile: [https://restapi--gauthamprakash.repl.co/api/v1/profile/25](https://restapi--gauthamprakash.repl.co/api/v1/profile/5)
 
 jobs: [restapi--gauthamprakash.repl.co/api/v1/job/25](https://restapi--gauthamprakash.repl.co/api/v1/job/25)
 
@@ -28,7 +30,7 @@ blood_group: [restapi--gauthamprakash.repl.co/api/v1/blood_group/25](https://res
 
 website: [https://restapi--gauthamprakash.repl.co/api/v1/website/25](https://restapi--gauthamprakash.repl.co/api/v1/website/25)
 
-username: [restapi--gauthamprakash.repl.co/api/v1/username/25](https://restapi--gauthamprakash.repl.co/api/v1/username/25
+username: [restapi--gauthamprakash.repl.co/api/v1/username/25](https://restapi--gauthamprakash.repl.co/api/v1/username/25)
 
 name: [restapi--gauthamprakash.repl.co/api/v1/name/25](https://restapi--gauthamprakash.repl.co/api/v1/name/25)
 
@@ -56,6 +58,7 @@ phone: [restapi--gauthamprakash.repl.co/api/v1/phone/25](https://restapi--gautha
 
 md5: [restapi--gauthamprakash.repl.co/api/v1/md5/25](https://restapi--gauthamprakash.repl.co/api/v1/md5/25)
 
+```
 etc....
 
 ### Author
