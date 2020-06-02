@@ -61,6 +61,9 @@ md5: [restapi--gauthamprakash.repl.co/api/v1/md5/25](https://restapi--gauthampra
 
 etc....
 
+[![HitCount](http://hits.dwyl.com/gauthamp10/fakerapi.svg)](http://hits.dwyl.com/gauthamp10/fakerapi)
+
+
 ### Author
 
  **Gautham Prakash**
